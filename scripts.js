@@ -48,4 +48,8 @@ let v = 1;
 btn.onclick = () => {
     v += 1;
     div.textContent = `${v}`;
+    if(v==50){
+        alert("look at my portfolio once!");
+        window.location.href = "https://sudhaanshu94.github.io/Portfolio_Sudhanshu/";
+    }
 };
